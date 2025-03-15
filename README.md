@@ -12,3 +12,11 @@ yolo task=detect mode=predict model=runs/detect/train/weights/best.pt source=
 以上是我用来进行测试的yolo命令
 model=predict：进行推理的命令；model=runs/detect/train/weights/best.pt：使用训练好的最佳模型；source=：用于检测验证的数据的路径
 这一模型如果进行更多的数据集训练，使用更大的yolo版本，是适用于很多场景的不仅仅是工业上的表面检测，动物识别，农业上的检测，比如害虫，果实成熟度等，车辆识别和安全检测也可以，比如有人经过等
+
+
+
+如果有合作或者问题咨询请联系：
+13052271219@163.com
+260119501@qq.com
+15262999863
+句容市杰璨技术信息咨询
