@@ -172,16 +172,28 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
 # 忽略 YOLO 训练权重和模型
 *.pt
 *.onnx
 *.engine
 runs/
 
-# 忽略数据集（避免上传过大文件）
+# 忽略数据集
 data/
 datasets/
 
 # 训练过程中的临时文件
 results/
+logs/
+
+# 忽略 VSCode 生成的工作区文件
+.vscode/
+
+# Conda venv 虚拟环境
+.conda/
+env/
+venv/
+
+# TensorBoard 
 logs/
