@@ -1,4 +1,4 @@
-#如果出现duplicate labels removed，这是图片有重复标注了，可以将重复标签删除
+#重复标签删除
 
 import os
 
